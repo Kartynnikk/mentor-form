@@ -1,0 +1,135 @@
+body {
+    background-image: url(img/pic.jpeg);
+    background-size: cover;
+}
+
+#form {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 500px;
+    height: 863px;
+    margin: auto;
+}
+
+.box {
+    /* border: 2px solid red; */
+    padding: 20px;
+    margin: 30px;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 39px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.sn {
+    display: inline-block;
+}
+
+.social_network {
+    width: 100%;
+    margin: auto;
+    padding-left: 100px;
+    margin-bottom: 110px;
+}
+
+.sn {
+    margin-right: 10px;
+}
+
+.prch2 {
+    text-align: center;
+    color: rgb(87, 87, 87);
+}
+
+button {
+    background-image: url(img/pic.jpeg);
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 390px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    transition: background-image 15s ease-in-out 5s;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-position: 390px;
+}
+
+.username,
+.password {
+    padding: 0 7px 0 23px;
+}
+
+input {
+    border: none;
+    font-size: 17px;
+    color: rgb(193, 193, 193);
+    width: 300px;
+    transition: border 1s ease 1s;
+}
+
+input:hover {
+    border: 1px solid white;
+}
+
+.img1,
+.img2 {
+    position: absolute;
+}
+
+.form1,
+.form2 {
+    position: relative;
+    left: 30px;
+}
+
+.user {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(97, 97, 97);
+}
+
+.name,
+.pass {
+    border-bottom: 2px solid rgb(193, 193, 193);
+    width: 360px;
+    height: 35px;
+    transition: all 2ms ease 1s;
+}
+
+.name:hover {
+    border-bottom: 3px solid vlack;
+}
+
+.forget a {
+    color: rgb(104, 104, 104);
+    font-weight: lighter;
+    text-decoration: none;
+    font-weight: light;
+}
+
+.forget p {
+    margin-right: 12px;
+    text-align: right;
+}
+
+.prch1 {
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    color: rgb(87, 87, 87);
+}
+
+.sn img {
+    width: 60px;
+    height: 60px;
+}
